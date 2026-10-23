@@ -12,7 +12,7 @@
             --btn-hover: #334155;
         }
         body {
-            background-color: var(--bg-color);
+            background: var(--bg-color) url("fondo.jpg") center / cover no-repeat fixed;
             color: var(--text-color);
             font-family: system-ui, -apple-system, sans-serif;
             display: flex;
@@ -20,6 +20,8 @@
             align-items: center;
             padding: 2rem 1rem;
             margin: 0;
+            min-height: 100vh;
+            box-sizing: border-box;
         }
         .profile {
             text-align: center;
